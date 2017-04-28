@@ -12,9 +12,21 @@ patterns:
 - comment: A cancelled todo
   name: keyword.operator.note
   match: (\t)*\[\-\].+
+- comment: A High-priority todo
+  name: storage.type.note
+  match: (\t)*\[\^\].+
+- comment: A Low-priority todo
+  name: support.function.note
+  match: (\t)*\[v\].+
+- comment: A blocked todo
+  name: keyword.control.note
+  match: (\t)*\[\!\].+
+- comment: An uncertain todo
+  name: support.function.note
+  match: (\t)*\[\?\].+
 - comment: A finished todo
   name: entity.name.function.note
-  match: (\t)*\[V\].+
+  match: (\t)*\[[VX]\].+
 - comment: Numbered list
   name: variable.parameter.note
   match: (\t)*[0-9]+\..+
