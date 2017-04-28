@@ -1,0 +1,22 @@
+# Change Language to Log to view formatting (this is a workaround to .log files normally being ignored by git)
+Dates and Times: 	00/00/0000 | 0000/00/00 | 00:00:00 | 00:00:00.000
+System Paths: 		X:\folder\folder\file.end
+Numbers: 			0-9
+Elements: 			[element]
+Modifier: 			(modifier)
+Log Levels:			| Info |
+					| Warn |
+					| Error |
+					| Fatal |
+					| Other |
+Keywords: 			pass Pass PASS
+					fail Fail FAIL
+					Verify
+					Click Clicking
+					Find Finding Found
+					...
+Caps:				ANYTHING IN CAPS
+Test Start / End:	----- Test Start -----
+Test Step:			-- This is a Test Step ()
+					-- This is also a Test Step []
+Important Messages:	*** This is an important message! ***
