@@ -47,7 +47,7 @@ patterns:
   match: ([Ff][Aa][Ii][Ll]([Ee][Dd])?)
 - comment: Keywords other
   name: string.quoted.single.Log
-  match: ([Vv]erify)|([Cc]lick(ing)?)|([Ff]ind(ing)?)|([Ff]ound)|([Ee]xpected)|([Ee]xists?)|([Aa]ctual)|([Bb]rowsers?)|([Ss]uccess(ful)?)|([Cc]ompleted?)
+  match: ([Vv]erify(ing)?)|([Cc]lick(ing)?)|([Ff]ind(ing)?)|([Ff]ound)|([Ee]xpected)|([Ee]xists?)|([Aa]ctual)|([Bb]rowsers?)|([Ss]uccess(ful)?)|([Cc]ompleted?)
 - comment: test Start or end ------
   name: keyword.control.Log
   match: (-----)(.+)(-----)
